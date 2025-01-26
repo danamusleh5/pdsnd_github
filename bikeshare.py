@@ -45,6 +45,16 @@ def get_filters():
 def load_data(city, month, day):
     """
     Loads data for the specified city and filters by month and day if applicable.
+    
+    Args:
+    city (str): The name of the city ('chicago', 'new york city', 'washington').
+    month (str): The month to filter by ('january', 'february', etc.) or 'all' to apply no filter.
+    day (str): The day of the week to filter by ('monday', 'tuesday', etc.) or 'all' to apply no filter.
+    
+    Returns:
+    DataFrame: A pandas DataFrame containing the filtered bikeshare data.
+    
+    If the filters result in an empty DataFrame, prints a message and returns None.
     """
     # Load data for the specified city
     df = pd.read_csv(CITY_DATA[city])
@@ -67,9 +77,6 @@ def load_data(city, month, day):
         return None
 
     return df
-
-
-
 
 def time_stats(df):
     """Displays statistics on the most frequent times of travel."""
