@@ -49,26 +49,25 @@ def load_data(city, month, day):
     # Load data for the specified city
     df = pd.read_csv(CITY_DATA[city])
 
-    # Convert Start Time column to datetime
+    # Convert Start Time column to datetime and extract month and day of week
     df['Start Time'] = pd.to_datetime(df['Start Time'])
-
-    # Extract month and day of week from Start Time
     df['month'] = df['Start Time'].dt.month_name().str.lower()
     df['day_of_week'] = df['Start Time'].dt.day_name().str.lower()
 
+    # Filter by month if applicable
     if month != 'all':
         df = df[df['month'] == month]
 
+    # Filter by day if applicable
     if day != 'all':
         df = df[df['day_of_week'] == day]
 
+    # Return None if no data available after filtering
     if df.empty:
         print("\nNo data available for the specified filters. Please try again.\n")
         return None
 
     return df
-
-
 
 
 def time_stats(df):
