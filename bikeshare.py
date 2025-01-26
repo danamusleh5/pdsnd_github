@@ -171,22 +171,27 @@ def user_stats(df):
     print('-' * 40)
 
 def display_data(df):
-    """Displays raw data in chunks of 5 rows based on user input."""
+    """Displays raw data in chunks of 5 rows, based on user input."""
+    
     row_index = 0
-    while True:
-        user_input = input("\nWould you like to see 5 rows of raw data? Enter 'yes' or 'no': ").lower()
+    total_rows = len(df)
+
+    while row_index < total_rows:
+        user_input = input("\nWould you like to see 5 rows of raw data? Enter 'yes' or 'no': ").strip().lower()
 
         if user_input == 'yes':
+            # Display the next chunk of data
             print(df.iloc[row_index:row_index + 5])
             row_index += 5
-            if row_index >= len(df):
-                print("\nNo more data to display.")
-                break
         elif user_input == 'no':
             print("\nEnding data display.")
             break
         else:
             print("Invalid input. Please enter 'yes' or 'no'.")
+    
+    if row_index >= total_rows:
+        print("\nNo more data to display.")
+
             
 def main():
     while True:
