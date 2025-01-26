@@ -24,6 +24,24 @@ These files should contain the necessary data for the analysis. Ensure the files
 ### Credits
 This project is inspired by and based on the Udacity Data Science program. Special thanks to **Udacity** for providing the course content and resources that helped shape the foundation of this project.
 
+### Features ###
+**City Selection:** Choose from three cities: Chicago, New York City, or Washington.
+**Month Filter:** Filter data for a specific month (January to June) or no filter.
+**Day Filter:** Filter data for a specific day of the week or no filter.
+**Statistics Displayed:**
+<ul>
+<li>Most common travel times (month, day, and hour)</li>
+<li>Most popular stations and most frequent trips</li>
+<li>Total and average trip duration</li>
+<li>User statistics (user type, gender, birth year)</li>
+</ul>
+
+### Example of Running the Program ###
+
+![image.png](attachment:caa062aa-8d88-4304-b0fc-bab50bbe2c2e.png)
+![image.png](attachment:50ff63ab-f025-4c3d-baa2-60683542e98e.png)
+![image.png](attachment:4cea6d74-2ca0-4ab8-9c2c-7b5da3e7f04e.png)
+
 ## Requirements
 The program requires the following Python libraries:
 - `pandas` – for data manipulation and analysis
