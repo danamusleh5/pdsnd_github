@@ -9,7 +9,6 @@ Bikeshare Data Analysis
 ### Description
 This Python program analyzes bikeshare data for three major cities in the United States: Chicago, New York City, and Washington. It provides users with the ability to filter the data by month (from January to June) and day of the week, allowing for tailored analysis. The program calculates and displays various statistics that help explore the bikeshare system, such as:
 
-<<<<<<< HEAD
 - **Most frequent travel times** (month, day, hour)
 - **Most popular stations** (start and end stations)
 - **Most frequent trips** (combination of start and end stations)
@@ -26,10 +25,10 @@ The program requires CSV files containing data for each city. These files should
 3. `washington.csv`
 
 The CSV files must contain relevant data columns such as `Start Time`, `End Time`, `Trip Duration`, `Start Station`, `End Station`, `User Type`, `Gender`, and `Birth Year`.
-||||||| b95ecfa
+
+
 ### Files used
-Include the files used
-=======
+Include the files used:
 - **Most frequent travel times** (month, day, hour)
 - **Most popular stations** (start and end stations)
 - **Most frequent trips** (combination of start and end stations)
@@ -38,7 +37,7 @@ Include the files used
 
 These insights can be used to identify trends and patterns in the bikeshare system, providing valuable information for decision-making or research.
 
-### Files Used
+### Files Used:
 The program requires CSV files containing data for each city. These files should be placed in the same directory as the script, or the file paths can be adjusted accordingly:
 
 1. `chicago.csv`
@@ -47,8 +46,7 @@ The program requires CSV files containing data for each city. These files should
 
 The CSV files must contain relevant data columns such as `Start Time`, `End Time`, `Trip Duration`, `Start Station`, `End Station`, `User Type`, `Gender`, and `Birth Year`.
 
-<<<<<<< HEAD
-### Credits
+### Credits:
 This project is based on the Udacity Data Science program and was developed with guidance from their course content and resources. Special thanks to **Udacity** for providing the foundation and support for this project.
 
 ### Features
@@ -95,8 +93,7 @@ Displaying statistics for Chicago for the month of January:
 
 ### Requirements
 To run this program, you will need the following Python libraries:
-||||||| 092a9d2
-=======
+
 ### Credits
 This project is inspired by and based on the Udacity Data Science program. Special thanks to **Udacity** for providing the course content and resources that helped shape the foundation of this project.
 
@@ -111,7 +108,6 @@ This project is inspired by and based on the Udacity Data Science program. Speci
 <li>Total and average trip duration</li>
 <li>User statistics (user type, gender, birth year)</li>
 </ul>
->>>>>>> b8aca1ee9ea0d6ac9057c8b6137a6105b84d977e
 
 - `pandas` – for data manipulation and analysis
 - `numpy` – for numerical operations
@@ -120,30 +116,4 @@ This project is inspired by and based on the Udacity Data Science program. Speci
 You can install the required libraries using:
 
 ```bash
-<<<<<<< HEAD
 pip install pandas numpy 
-||||||| 092a9d2
-pip install pandas numpy
->>>>>>> documentation
-
-### Credits
-<<<<<<< HEAD
-This project is based on the Udacity Data Science program and was developed with guidance from their course content and resources. Special thanks to **Udacity** for providing the foundation and support for this project.
-||||||| b95ecfa
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
-=======
-This project is inspired by and based on the Udacity Data Science program. Special thanks to **Udacity** for providing the course content and resources that helped shape the foundation of this project.
-
-
-
-
-=======
-pip install pandas numpy
-
-
-
-
-
->>>>>>> b8aca1ee9ea0d6ac9057c8b6137a6105b84d977e
->>>>>>> documentation
