@@ -36,12 +36,6 @@ This project is inspired by and based on the Udacity Data Science program. Speci
 <li>User statistics (user type, gender, birth year)</li>
 </ul>
 
-### Example of Running the Program ###
-
-![image.png](attachment:caa062aa-8d88-4304-b0fc-bab50bbe2c2e.png)
-![image.png](attachment:50ff63ab-f025-4c3d-baa2-60683542e98e.png)
-![image.png](attachment:4cea6d74-2ca0-4ab8-9c2c-7b5da3e7f04e.png)
-
 ## Requirements
 The program requires the following Python libraries:
 - `pandas` – for data manipulation and analysis
