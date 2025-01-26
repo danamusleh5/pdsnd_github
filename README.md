@@ -21,6 +21,8 @@ The program requires CSV files for the three cities:
 
 These files should contain the necessary data for the analysis. Ensure the files are placed in the same directory as the script, or adjust the file paths accordingly in your code.
 
+### Credits
+This project is inspired by and based on the Udacity Data Science program. Special thanks to **Udacity** for providing the course content and resources that helped shape the foundation of this project.
 
 ## Requirements
 The program requires the following Python libraries:
@@ -34,8 +36,6 @@ You can install the required libraries using:
 ```bash
 pip install pandas numpy
 
-### Credits
-This project is inspired by and based on the Udacity Data Science program. Special thanks to **Udacity** for providing the course content and resources that helped shape the foundation of this project.
 
 
 
