@@ -26,6 +26,7 @@ The program requires CSV files containing data for each city. These files should
 
 The CSV files must contain relevant data columns such as `Start Time`, `End Time`, `Trip Duration`, `Start Station`, `End Station`, `User Type`, `Gender`, and `Birth Year`.
 
+<<<<<<< HEAD
 ### Credits
 This project is based on the Udacity Data Science program and was developed with guidance from their course content and resources. Special thanks to **Udacity** for providing the foundation and support for this project.
 
@@ -73,6 +74,23 @@ Displaying statistics for Chicago for the month of January:
 
 ### Requirements
 To run this program, you will need the following Python libraries:
+||||||| 092a9d2
+=======
+### Credits
+This project is inspired by and based on the Udacity Data Science program. Special thanks to **Udacity** for providing the course content and resources that helped shape the foundation of this project.
+
+### Features ###
+**City Selection:** Choose from three cities: Chicago, New York City, or Washington.
+**Month Filter:** Filter data for a specific month (January to June) or no filter.
+**Day Filter:** Filter data for a specific day of the week or no filter.
+**Statistics Displayed:**
+<ul>
+<li>Most common travel times (month, day, and hour)</li>
+<li>Most popular stations and most frequent trips</li>
+<li>Total and average trip duration</li>
+<li>User statistics (user type, gender, birth year)</li>
+</ul>
+>>>>>>> b8aca1ee9ea0d6ac9057c8b6137a6105b84d977e
 
 - `pandas` – for data manipulation and analysis
 - `numpy` – for numerical operations
@@ -81,4 +99,22 @@ To run this program, you will need the following Python libraries:
 You can install the required libraries using:
 
 ```bash
+<<<<<<< HEAD
 pip install pandas numpy 
+||||||| 092a9d2
+pip install pandas numpy
+
+### Credits
+This project is inspired by and based on the Udacity Data Science program. Special thanks to **Udacity** for providing the course content and resources that helped shape the foundation of this project.
+
+
+
+
+=======
+pip install pandas numpy
+
+
+
+
+
+>>>>>>> b8aca1ee9ea0d6ac9057c8b6137a6105b84d977e
