@@ -91,8 +91,6 @@ Displaying statistics for Chicago for the month of January:
 - Total and average trip duration
 - User statistics (user type, gender, birth year)
 
-### Requirements
-To run this program, you will need the following Python libraries:
 
 ### Credits
 This project is inspired by and based on the Udacity Data Science program. Special thanks to **Udacity** for providing the course content and resources that helped shape the foundation of this project.
@@ -113,7 +111,8 @@ This project is inspired by and based on the Udacity Data Science program. Speci
 - `numpy` – for numerical operations
 - `time` – for handling time-related operations
 
-You can install the required libraries using:
+### Requirements
+To run this program, you will need the following Python libraries:
 
 ```bash
 pip install pandas numpy 
