@@ -17,15 +17,14 @@ This Python program analyzes bikeshare data for three major cities in the United
 
 These insights can be used to identify trends and patterns in the bikeshare system, providing valuable information for decision-making or research.
 
-### Files used
-Include the files used:
-- **Most frequent travel times** (month, day, hour)
-- **Most popular stations** (start and end stations)
-- **Most frequent trips** (combination of start and end stations)
-- **Trip duration statistics** (total and average trip time)
-- **User demographics** (user type, gender, birth year)
+### Files Used
+The program requires CSV files containing data for each city. These files should be placed in the same directory as the script, or the file paths can be adjusted accordingly:
 
-These insights can be used to identify trends and patterns in the bikeshare system, providing valuable information for decision-making or research.
+1. `chicago.csv`
+2. `new_york_city.csv`
+3. `washington.csv`
+
+The CSV files must contain relevant data columns such as `Start Time`, `End Time`, `Trip Duration`, `Start Station`, `End Station`, `User Type`, `Gender`, and `Birth Year`.
 
 ### Example Usage:
 python bikeshare.py
