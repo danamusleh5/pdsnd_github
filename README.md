@@ -17,16 +17,6 @@ This Python program analyzes bikeshare data for three major cities in the United
 
 These insights can be used to identify trends and patterns in the bikeshare system, providing valuable information for decision-making or research.
 
-### Files Used
-The program requires CSV files containing data for each city. These files should be placed in the same directory as the script, or the file paths can be adjusted accordingly:
-
-1. `chicago.csv`
-2. `new_york_city.csv`
-3. `washington.csv`
-
-The CSV files must contain relevant data columns such as `Start Time`, `End Time`, `Trip Duration`, `Start Station`, `End Station`, `User Type`, `Gender`, and `Birth Year`.
-
-
 ### Files used
 Include the files used:
 - **Most frequent travel times** (month, day, hour)
@@ -36,28 +26,6 @@ Include the files used:
 - **User demographics** (user type, gender, birth year)
 
 These insights can be used to identify trends and patterns in the bikeshare system, providing valuable information for decision-making or research.
-
-### Files Used:
-The program requires CSV files containing data for each city. These files should be placed in the same directory as the script, or the file paths can be adjusted accordingly:
-
-1. `chicago.csv`
-2. `new_york_city.csv`
-3. `washington.csv`
-
-The CSV files must contain relevant data columns such as `Start Time`, `End Time`, `Trip Duration`, `Start Station`, `End Station`, `User Type`, `Gender`, and `Birth Year`.
-
-### Credits:
-This project is based on the Udacity Data Science program and was developed with guidance from their course content and resources. Special thanks to **Udacity** for providing the foundation and support for this project.
-
-### Features
-- **City Selection:** Choose from three cities: Chicago, New York City, or Washington.
-- **Month Filter:** Filter data for a specific month (January to June) or select 'all' to apply no month filter.
-- **Day Filter:** Filter data for a specific day of the week (e.g., Monday to Sunday) or select 'all' for no day filter.
-- **Statistics Displayed:**
-  - Most common travel times (month, day, and hour)
-  - Most popular stations and most frequent trips
-  - Total and average trip duration
-  - User statistics (user type, gender, birth year)
 
 ### Example Usage:
 python bikeshare.py
